@@ -1,0 +1,38 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  /* display: flex; */
+  background: url('./rps.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #f4f4f4;
+  text-align: center;
+
+}
+
+h1 {
+  color: orange;
+  margin: 15px;
+}
+
+p {
+  margin: 15px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
